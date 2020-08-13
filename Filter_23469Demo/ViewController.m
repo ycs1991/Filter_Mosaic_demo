@@ -54,7 +54,7 @@ typedef struct {
     filterBar.delegate = self;
     [self.view addSubview:filterBar];
 
-    NSArray *dataSource = @[@"无", @"分屏_2", @"分屏_3", @"分屏_4", @"分屏_6", @"分屏_9", @"灰度", @"倒置", @"马赛克1", @"六边形马赛克", @"三角形形马赛克"];
+    NSArray *dataSource = @[@"无", @"分屏_2", @"分屏_3", @"分屏_4", @"分屏_6", @"分屏_9", @"灰度", @"倒置", @"马赛克1", @"六边形马赛克", @"三角形形马赛克", @"缩放", @"灵魂出窍", @"抖动", @"闪白", @"毛刺", @"幻觉"];
     filterBar.itemList = dataSource;
 }
 
@@ -272,6 +272,42 @@ typedef struct {
     [self setupShaderProgramWithName:@"TriangularMosaic"];
 }
 
+//设置缩放着色器
+- (void)setupScaleShaderProgram {
+    //设置着色器程序
+    [self setupShaderProgramWithName:@"Scale"];
+}
+
+//设置灵魂出窍着色器
+- (void)setupSoulOutShaderProgram {
+    //设置着色器程序
+    [self setupShaderProgramWithName:@"SoulOut"];
+}
+
+//设置抖动着色器
+- (void)setupShakeShaderProgram {
+    //设置着色器程序
+    [self setupShaderProgramWithName:@"Shake"];
+}
+
+//设置闪白着色器
+- (void)setupShineWhiteShaderProgram {
+    //设置着色器程序
+    [self setupShaderProgramWithName:@"ShineWhite"];
+}
+
+//设置闪白着色器
+- (void)setupGlitchShaderProgram {
+    //设置着色器程序
+    [self setupShaderProgramWithName:@"Glitch"];
+}
+
+//设置闪白着色器
+- (void)setupVertigoShaderProgram {
+    //设置着色器程序
+    [self setupShaderProgramWithName:@"Vertigo"];
+}
+
 //根据着色器名字设置着色器程序,初始化着色器程序
 - (void)setupShaderProgramWithName:(NSString *)name {
     //1.获取着色器program
@@ -431,6 +467,18 @@ typedef struct {
         [self setupSplitHexagonMosaicShaderProgram];
     }else if (index == 10) {
         [self setupSplitTriangularMosaicShaderProgram];
+    }else if (index == 11) {
+        [self setupScaleShaderProgram];
+    }else if (index == 12) {
+        [self setupSoulOutShaderProgram];
+    }else if (index == 13) {
+        [self setupShakeShaderProgram];
+    }else if (index == 14) {
+        [self setupShineWhiteShaderProgram];
+    }else if (index == 15) {
+        [self setupGlitchShaderProgram];
+    }else if (index == 16) {
+        [self setupVertigoShaderProgram];
     }
     //重新开始滤镜动画
     [self startFilterAnimation];

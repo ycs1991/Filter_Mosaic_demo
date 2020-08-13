@@ -38,6 +38,18 @@
 		FBADEB5C24E2BF8C000E6292 /* HexagonMosaic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FBADEB5B24E2BF8C000E6292 /* HexagonMosaic.fsh */; };
 		FBADEB5F24E2C24A000E6292 /* TriangularMosaic.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FBADEB5E24E2C24A000E6292 /* TriangularMosaic.vsh */; };
 		FBADEB6124E2C253000E6292 /* TriangularMosaic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FBADEB6024E2C253000E6292 /* TriangularMosaic.fsh */; };
+		FBADEB6924E50F53000E6292 /* Scale.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FBADEB6824E50F53000E6292 /* Scale.vsh */; };
+		FBADEB6B24E50F5F000E6292 /* Scale.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FBADEB6A24E50F5F000E6292 /* Scale.fsh */; };
+		FBADEB6E24E51120000E6292 /* SoulOut.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FBADEB6D24E51120000E6292 /* SoulOut.vsh */; };
+		FBADEB7024E51129000E6292 /* SoulOut.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FBADEB6F24E51129000E6292 /* SoulOut.fsh */; };
+		FBADEB7324E51328000E6292 /* Shake.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FBADEB7224E51328000E6292 /* Shake.vsh */; };
+		FBADEB7524E5132F000E6292 /* Shake.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FBADEB7424E5132F000E6292 /* Shake.fsh */; };
+		FBADEB7824E5153D000E6292 /* ShineWhite.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FBADEB7724E5153D000E6292 /* ShineWhite.vsh */; };
+		FBADEB7A24E51543000E6292 /* ShineWhite.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FBADEB7924E51543000E6292 /* ShineWhite.fsh */; };
+		FBADEB7D24E5166C000E6292 /* Glitch.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FBADEB7C24E5166C000E6292 /* Glitch.vsh */; };
+		FBADEB7F24E51677000E6292 /* Glitch.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FBADEB7E24E51677000E6292 /* Glitch.fsh */; };
+		FBADEB8224E51BC6000E6292 /* Vertigo.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FBADEB8124E51BC6000E6292 /* Vertigo.vsh */; };
+		FBADEB8424E51BD5000E6292 /* Vertigo.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FBADEB8324E51BD5000E6292 /* Vertigo.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +90,18 @@
 		FBADEB5B24E2BF8C000E6292 /* HexagonMosaic.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = HexagonMosaic.fsh; sourceTree = "<group>"; };
 		FBADEB5E24E2C24A000E6292 /* TriangularMosaic.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = TriangularMosaic.vsh; sourceTree = "<group>"; };
 		FBADEB6024E2C253000E6292 /* TriangularMosaic.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = TriangularMosaic.fsh; sourceTree = "<group>"; };
+		FBADEB6824E50F53000E6292 /* Scale.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Scale.vsh; sourceTree = "<group>"; };
+		FBADEB6A24E50F5F000E6292 /* Scale.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Scale.fsh; sourceTree = "<group>"; };
+		FBADEB6D24E51120000E6292 /* SoulOut.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SoulOut.vsh; sourceTree = "<group>"; };
+		FBADEB6F24E51129000E6292 /* SoulOut.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SoulOut.fsh; sourceTree = "<group>"; };
+		FBADEB7224E51328000E6292 /* Shake.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Shake.vsh; sourceTree = "<group>"; };
+		FBADEB7424E5132F000E6292 /* Shake.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Shake.fsh; sourceTree = "<group>"; };
+		FBADEB7724E5153D000E6292 /* ShineWhite.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = ShineWhite.vsh; sourceTree = "<group>"; };
+		FBADEB7924E51543000E6292 /* ShineWhite.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = ShineWhite.fsh; sourceTree = "<group>"; };
+		FBADEB7C24E5166C000E6292 /* Glitch.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Glitch.vsh; sourceTree = "<group>"; };
+		FBADEB7E24E51677000E6292 /* Glitch.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Glitch.fsh; sourceTree = "<group>"; };
+		FBADEB8124E51BC6000E6292 /* Vertigo.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Vertigo.vsh; sourceTree = "<group>"; };
+		FBADEB8324E51BD5000E6292 /* Vertigo.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Vertigo.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +153,12 @@
 		FBADEB1524E0F935000E6292 /* FilterShader */ = {
 			isa = PBXGroup;
 			children = (
+				FBADEB8024E51BB5000E6292 /* Vertigo */,
+				FBADEB7B24E51644000E6292 /* Glitch */,
+				FBADEB7624E5152D000E6292 /* ShineWhite */,
+				FBADEB7124E51317000E6292 /* Shake */,
+				FBADEB6C24E5110F000E6292 /* SoulOut */,
+				FBADEB6724E50F39000E6292 /* Scale */,
 				FBADEB5D24E2C235000E6292 /* TriangularMosaic */,
 				FBADEB5824E2BF69000E6292 /* HexagonMosaic */,
 				FBADEB5324E2BD1F000E6292 /* Mosaic */,
@@ -255,6 +285,60 @@
 			path = TriangularMosaic;
 			sourceTree = "<group>";
 		};
+		FBADEB6724E50F39000E6292 /* Scale */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEB6824E50F53000E6292 /* Scale.vsh */,
+				FBADEB6A24E50F5F000E6292 /* Scale.fsh */,
+			);
+			path = Scale;
+			sourceTree = "<group>";
+		};
+		FBADEB6C24E5110F000E6292 /* SoulOut */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEB6D24E51120000E6292 /* SoulOut.vsh */,
+				FBADEB6F24E51129000E6292 /* SoulOut.fsh */,
+			);
+			path = SoulOut;
+			sourceTree = "<group>";
+		};
+		FBADEB7124E51317000E6292 /* Shake */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEB7224E51328000E6292 /* Shake.vsh */,
+				FBADEB7424E5132F000E6292 /* Shake.fsh */,
+			);
+			path = Shake;
+			sourceTree = "<group>";
+		};
+		FBADEB7624E5152D000E6292 /* ShineWhite */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEB7724E5153D000E6292 /* ShineWhite.vsh */,
+				FBADEB7924E51543000E6292 /* ShineWhite.fsh */,
+			);
+			path = ShineWhite;
+			sourceTree = "<group>";
+		};
+		FBADEB7B24E51644000E6292 /* Glitch */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEB7C24E5166C000E6292 /* Glitch.vsh */,
+				FBADEB7E24E51677000E6292 /* Glitch.fsh */,
+			);
+			path = Glitch;
+			sourceTree = "<group>";
+		};
+		FBADEB8024E51BB5000E6292 /* Vertigo */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEB8124E51BC6000E6292 /* Vertigo.vsh */,
+				FBADEB8324E51BD5000E6292 /* Vertigo.fsh */,
+			);
+			path = Vertigo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -313,17 +397,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBADEB1F24E0F9BC000E6292 /* Normal.fsh in Resources */,
+				FBADEB7D24E5166C000E6292 /* Glitch.vsh in Resources */,
 				FBADEB5024E2BC81000E6292 /* Reversal.vsh in Resources */,
 				FBADEB3C24E2A2EC000E6292 /* SplitScreen_3.fsh in Resources */,
 				FBADEB1D24E0F9AD000E6292 /* Normal.vsh in Resources */,
+				FBADEB7524E5132F000E6292 /* Shake.fsh in Resources */,
 				FBADEB0D24E0F2E1000E6292 /* timg.jpg in Resources */,
 				FBADEB4824E2A657000E6292 /* SplitScreen_9.fsh in Resources */,
+				FBADEB6924E50F53000E6292 /* Scale.vsh in Resources */,
+				FBADEB8224E51BC6000E6292 /* Vertigo.vsh in Resources */,
 				FBADEB5C24E2BF8C000E6292 /* HexagonMosaic.fsh in Resources */,
 				FBADEB4624E2A64E000E6292 /* SplitScreen_9.vsh in Resources */,
 				FBADEB0324E0F1CD000E6292 /* LaunchScreen.storyboard in Resources */,
 				FBADEB4424E2A575000E6292 /* SplitScreen_6.fsh in Resources */,
 				FBADEB3E24E2A482000E6292 /* SplitScreen_4.vsh in Resources */,
 				FBADEB5A24E2BF84000E6292 /* HexagonMosaic.vsh in Resources */,
+				FBADEB6E24E51120000E6292 /* SoulOut.vsh in Resources */,
 				FBADEB0024E0F1CD000E6292 /* Assets.xcassets in Resources */,
 				FBADEB5224E2BC8A000E6292 /* Reversal.fsh in Resources */,
 				FBADEB4224E2A56B000E6292 /* SplitScreen_6.vsh in Resources */,
@@ -335,9 +424,16 @@
 				FBADEB6124E2C253000E6292 /* TriangularMosaic.fsh in Resources */,
 				FBADEB5724E2BD48000E6292 /* Mosaic.fsh in Resources */,
 				FBADEB2124E140AE000E6292 /* SplitScreen_2.vsh in Resources */,
+				FBADEB6B24E50F5F000E6292 /* Scale.fsh in Resources */,
 				FBADEB5524E2BD3E000E6292 /* Mosaic.vsh in Resources */,
+				FBADEB7324E51328000E6292 /* Shake.vsh in Resources */,
 				FBADEB3A24E2A2E2000E6292 /* SplitScreen_3.vsh in Resources */,
 				FBADEAFE24E0F1C9000E6292 /* Main.storyboard in Resources */,
+				FBADEB7F24E51677000E6292 /* Glitch.fsh in Resources */,
+				FBADEB7024E51129000E6292 /* SoulOut.fsh in Resources */,
+				FBADEB7824E5153D000E6292 /* ShineWhite.vsh in Resources */,
+				FBADEB8424E51BD5000E6292 /* Vertigo.fsh in Resources */,
+				FBADEB7A24E51543000E6292 /* ShineWhite.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
